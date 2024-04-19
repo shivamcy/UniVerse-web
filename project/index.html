@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to UniVerse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="login-container">
+        <img src="/Users/shivamchaudhary/Downloads/Monogram UV Logo Design.jpeg" alt="UniVerse Logo" class="logo">
+        <h2>Welcome to UniVerse</h2>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div id="error-message" class="error-message"></div>
+        <div class="signup-link">
+            Don't have an account? <a href="signup.html">Sign Up</a>
+        </div>
+        
+    </div>
+    <div class="social-buttons">
+        <button onclick="window.location.href = 'https://www.instagram.com';">Instagram</button>
+        <button onclick="window.location.href = 'https://twitter.com';">X(Twitter)</button>
+        <button onclick="window.location.href = 'https://www.linkedin.com';">LinkedIn</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
